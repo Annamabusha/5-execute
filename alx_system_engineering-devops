@@ -1,0 +1,9 @@
+julien@ubuntu:/tmp/h$ Is -total 8
+-rwxrw-r-- 1 julien julien 28 sep 20 1 4:26 5-execute
+-rw-rw-r-- 1 julien julien 23 sep 20 1 4:25 hello
+julien@ubuntu:/tmp/h$ ./hello bash: ./hello: permission denied 
+julien@ubuntu:/tmp/h$ ./5-execute
+julien@ubuntu:/tmp/h$ Is total 8
+-rwxrw-r-- 1 julien julien 28 sep 20 1 4:26
+-rw-rw-r-- 1 julien julien 23 sep 20 1 4:25
+julien@ubuntu:/tmp/h$
